@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.File;
 import java.util.Scanner;
 import java.io.FileNotFoundException;
-public class encrypt {
+public class openText {
     public static void main(String[]args){
  
 // User types in their password
