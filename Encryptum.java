@@ -43,7 +43,7 @@ public class Encryptum {
          for(int i = 0; i < inputKey.length; i++) {
             boolean valid = false;
             while(!valid) {
-                System.out.println("What would you like your " + (i+1) + "[]" + " string to be?");
+                System.out.println("What would you like your " + (letters[i]) + "[]" + " string to be?");
                 String next = scanner.nextLine();
                 if(!checkUsed(inputKey,next)) {
                     inputKey[i] = next;
